@@ -54,7 +54,7 @@ const App = () =>{
   return(
     <div id="appEnclosingDiv">
     <HashRouter>
-      <Route path="/react-name-permanent-registrar/" exact component={Homepage} />
+      <Route path="/" exact component={Homepage} />
       <Route path="/about" exact component={AboutFunction} />
       <Route path="/favourite" exact component={FavouriteFunction} />
     </HashRouter>
