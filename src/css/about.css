@@ -1,0 +1,118 @@
+#aboutEnclosingDiv{
+  background-color: #efeff2;
+  font-style:oblique;
+}
+#aboutEnclosingDiv h2,h3{
+  text-decoration: underline;
+  font-style: italic;
+}
+.aboutContent {
+  text-align: center;
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 120px 10px;
+}
+#dummyDiv{
+  height:6px;
+  background-color:#02aaf6;
+}
+#aboutFirstDiv{
+  display:table;
+  text-align: center;
+  background-color: #fffde8;
+  height: 400px;
+  box-shadow: 0px 5px 	#E8E8E8;
+}
+#aboutFirstDiv p{
+  display: table-cell;
+  vertical-align: middle;
+}
+#aboutSecondDiv{
+  display: flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:200px;
+  margin-top: 2%;
+}
+#aboutSecondDiv .d1{
+  width:400px;
+  margin-right: 4%;
+  padding-top: 2%;
+  background-color: #fffde8;
+}
+
+#aboutSecondDiv .d2{
+  width:400px;
+  margin-left: 4%;
+  padding-top: 1%;
+  background-color: #fffde8;
+}
+#aboutThirdDiv{
+  display: flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:200px;
+  margin-top: 2%;
+}
+#aboutThirdDiv #d1{
+  padding-top: 1%;
+  width: 35%;
+}
+#aboutfourthDiv{
+  display:flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:200px;
+  margin-top: 2%;
+}
+#aboutfourthDiv #d1{
+  padding-top: 2%;
+  width: 35%;
+}
+#aboutfourthDiv #d2{
+  padding-top: 2%;
+  width: 35%;
+}
+#aboutFifthDiv{
+  display:flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:200px;
+}
+#aboutFifthDiv #d1{
+  padding-top: 2%;
+  width: 35%;
+}
+#aboutFifthDiv #d2{
+  padding-top: 2%;
+  width: 35%;
+}
+
+#aboutSixthDiv{
+  display:flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:275px;
+}
+#aboutSixthDiv #d1{
+  padding-top: 2%;
+  width: 30%;
+}
+#aboutSixthDiv #d2{
+  padding-top: 2%;
+  width: 30%;
+}
+#aboutSeventhDiv{
+  display:flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:275px;
+}
+#aboutSeventhDiv #d1{
+  padding-top: 2%;
+  width: 30%;
+}
+#aboutSeventhDiv #d2{
+  padding-top: 2%;
+  width: 30%;
+}

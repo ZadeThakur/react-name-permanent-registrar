@@ -1,0 +1,29 @@
+#BSBEnclosingdiv{
+  position: fixed;
+    width:100%;
+}
+#BSBForm{
+  width:100%;
+}
+#BSBLogo{
+  float: left;
+  width:4.81%;
+  height:60px;
+  background-image: url('../static/image3.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+#BSB{
+  float: left;
+  border: 1px solid grey;
+  height: 60px;
+  width: 90%;
+
+}
+#BSBSearchButton{
+  float: left;
+  width:5%;
+  height:60px;
+
+}

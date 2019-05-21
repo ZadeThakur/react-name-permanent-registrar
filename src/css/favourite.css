@@ -1,0 +1,37 @@
+#favouriteEnclosingDiv{
+  height: 100%;
+  background-color: #efeff2;
+  font-style:oblique;
+}
+#favouriteEnclosingDiv h2{
+  text-align: left;
+  text-decoration: underline;
+}
+.favouriteContent {
+  text-align: center;
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 120px 10px;
+}
+#favouriteFirstDiv{
+  display: flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:250px;
+  margin-top: 2%;
+}
+#favouriteFirstDiv #d1{
+  padding-top: 5%;
+  width: 35%;
+}
+#favouriteSecondDiv{
+  display: flex;
+  justify-content: center;
+  background-color: #fffde8;
+  height:250px;
+  margin-top: 2%;
+}
+#favouriteSecondDiv #d1{
+  padding-top: 5%;
+  width: 35%;
+}

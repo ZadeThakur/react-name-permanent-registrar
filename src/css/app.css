@@ -1,0 +1,55 @@
+#root{
+  height: 100%;
+}
+#appEnclosingDiv{
+  height:100%;
+  position: relative;
+}
+#enclosingDiv{
+  height:100%;
+  position: relative;
+}
+
+.hero-image{
+  height:65%;
+  background-image: url("../static/image1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#logo{
+  height:50%;
+  width:25%;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  background-image: url("../static/image2.jpg");
+  transform: translate(150%,15%);
+}
+
+#AccountsButtonDiv{
+  padding:1%;
+}
+
+#SearchBarDiv{
+  transform: translate(25%,65%);
+}
+#infoDivs{
+  position: relative;
+  height: 100%;
+}
+#footer{
+  position: relative;
+  height: 45%;
+}
+
+#AboutFunctionEnclosingDiv{
+  height: 100%;
+  position: relative;
+}
+#FavouriteFunctionEnclosingDiv{
+  height: 100%;
+  position: relative;
+}
