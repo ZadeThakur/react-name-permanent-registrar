@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import '../css/app.css';
 import AccountsButton from './AccountsButton';
 import SearchBar from './SearchBar';
@@ -53,11 +53,11 @@ const Homepage = () =>{
 const App = () =>{
   return(
     <div id="appEnclosingDiv">
-    <BrowserRouter>
+    <HashRouter>
       <Route path="/" exact component={Homepage} />
       <Route path="/about" exact component={AboutFunction} />
       <Route path="/favourite" exact component={FavouriteFunction} />
-    </BrowserRouter>
+    </HashRouter>
     </div>
   );
 };
