@@ -1,8 +1,9 @@
 import React from 'react';
+import Button from '@material-ui/core/Button';
 
 const AccountsButton = () =>{
   return(
-    <button className="ui primary basic button">No Accounts</button>
+    <Button color="primary" variant="contained">No Accounts</Button>
   );
 };
 export default AccountsButton;

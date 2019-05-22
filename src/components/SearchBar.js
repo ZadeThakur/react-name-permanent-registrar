@@ -1,13 +1,46 @@
-import React from 'react';
-import '../css/searchBar.css';
+import React from "react";
+import "../css/searchBar.css";
+import { withStyles } from "@material-ui/core/styles";
+import { Button, Input } from "@material-ui/core";
 
-const SearchBar = () =>{
-  return(
-      <div id="searchBarEnclosingDiv">
-        <input id="searchBar" type="text" placeholder="Search names"></input>
-        <input className="ui primary basic button" id="searchButton" type="submit" value="Search"></input>
-      </div>
+const styles = theme => ({
+  button: {
+    width: "100px",
+    height: "50px"
+  },
+  input: {
+    width: "500px",
+    height: "50px",
+    margin:"5px 30px 5px 5px",
+    color:"black",
+    backgroundColor:"white"
+  }
+});
+
+const SearchBar = props => {
+  const { classes } = props;
+
+  return (
+    <div id="searchBarEnclosingDiv">
+      <form>
+        <Input
+          className={classes.input}
+          type="text"
+          placeholder="Search names"
+          variant="outlined"
+        />
+        <Button
+          className={classes.button}
+          color="primary"
+          variant="contained"
+          type="submit"
+          size="large"
+        >
+          Search
+        </Button>
+      </form>
+    </div>
   );
 };
 
-export default SearchBar;
+export default withStyles(styles)(SearchBar);
