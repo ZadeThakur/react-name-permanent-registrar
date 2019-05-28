@@ -5,7 +5,7 @@ import About from "./components/About";
 import Favourite from "./components/Favourite";
 
 export default () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Route path="/" exact component={Homepage} />
     <Route path="/about" exact component={About} />
     <Route path="/favourite" exact component={Favourite} />
